@@ -1,6 +1,6 @@
 .main-logo {
     position: absolute;
-    top: 0;
+    top: 10px;
     left: 0;
     width: fit-content;
 }

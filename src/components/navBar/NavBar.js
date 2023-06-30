@@ -8,7 +8,7 @@ const NavBar = () => {
   const normalLink = "nav-list__link";
 
     return ( 
-        <Group position="center" spacing="xs" >
+        <Group position="center" spacing="xs" h={64}>
           <ul className="header-list">
             <li className="header-list__item">
               <NavLink to="/" className={({isActive}) => isActive? activeLink : normalLink }>

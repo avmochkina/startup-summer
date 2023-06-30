@@ -20,6 +20,7 @@ const HomePage = () => {
           <Grid.Col span={8}>
             <Stack>
               <SeachBox />
+              
               <PaginationBtns />
             </Stack>
           </Grid.Col>
